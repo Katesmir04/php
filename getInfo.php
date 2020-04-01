@@ -1,9 +1,9 @@
 <?php
 header('Content-type: application/json');
-$host = 'mysql.hostinger.ru'; // адрес сервера 
-$database = 'u119004082_os'; // имя базы данных
-$user = 'u119004082_baks'; // имя пользователя
-$password = '142174'; // пароль
+$host = 'https://dashboard.heroku.com/apps/cherry-crumble-25473'; // адрес сервера 
+$database = 'My Databite'; // имя базы данных
+$user = 'pfzahs95zqd0dgcv'; // имя пользователя
+$password = 'wyipsydnd5clbu0n'; // пароль
 
 $link = mysqli_connect($host, $user, $password, $database) or die("Ошибка " . mysqli_error($link));
 mysqli_set_charset($link, "utf8");
